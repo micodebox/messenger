@@ -1,5 +1,5 @@
 import { PROFILES as profilesMock } from 'api/mocks/profiles';
-import { AuthStateContextType } from 'app/context/authContext/AuthContext.types';
+import { AuthStateContextType } from 'context/authContext/AuthContext.types';
 
 export const useAuthState: () => AuthStateContextType = () => {
   return {
